@@ -8,7 +8,7 @@
         game.collectable = game.add.group();
         game.collectable.enableBody = true;
         
-        function create(type, x, y, gravity, bounce) {
+        function create(type.steve, 200, 170, 6, 0.7) {
             var collectable = game.collectable.create(x, y, type.assetKey);
             collectable.type = type;
             
